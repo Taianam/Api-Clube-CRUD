@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import br.com.serratec.livrariacrud.model.Cliente;
 import br.com.serratec.livrariacrud.model.Produto;
 
 public interface ClienteRepository extends JpaRepository<Cliente, Long>{
