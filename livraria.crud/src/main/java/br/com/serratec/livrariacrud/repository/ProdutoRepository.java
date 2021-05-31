@@ -4,8 +4,10 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+
 import br.com.serratec.livrariacrud.model.Produto;
 
-public interface ProdutosRepository extends JpaRepository<Produto, Long>{
+public interface ProdutoRepository extends JpaRepository<Produto, Long>{
 	Optional<Produto> findById(Long id);
+
 }

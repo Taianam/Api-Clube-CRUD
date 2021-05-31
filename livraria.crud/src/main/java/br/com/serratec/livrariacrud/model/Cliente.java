@@ -34,22 +34,6 @@ public class Cliente {
 	@NotNull
 	private Integer cpfOuCnpj;
 	
-	public Cliente(
-			Long id, 
-			String nome, 
-			Integer idade, 
-			String sexo, 
-			String estadoCivil,
-			String profissao,
-			Integer cpfOuCnpj) {
-		this.id = id;
-		this.nome = nome;
-		this.idade = idade;
-		this.sexo = sexo;
-		this.estadoCivil = estadoCivil;
-		this.profissao = profissao;
-		this.cpfOuCnpj = cpfOuCnpj;
-	}
 
 	public Long getId() {
 		return id;
